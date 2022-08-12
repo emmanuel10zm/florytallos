@@ -188,13 +188,22 @@ hr
 }
 .subtitulo
 {
-    font-size: 50px;
+    font-size: 30px;
 }
-
+h2
+{
+    font-size: 23px;
+}
 h4
 {
+    font-size: 18px;
     font-weight: normal;
 }
+h1
+{
+    font-size: 40px;
+    text-align: center;
+} 
 @media screen and (max-width: 1250px)
 {
     .logo
@@ -231,8 +240,5 @@ h4
     {
         font-size: 22px;
     }   
-    h1
-    {
-        text-align: center;
-    }  
+     
 }

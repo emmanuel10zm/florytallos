@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/bebidas.css">
+    <link rel="stylesheet" href="estilos/menu.css">
     <script src="https://kit.fontawesome.com/dda5adddf2.js" crossorigin="anonymous"></script>
     <title>COFFEE & DRINKS</title>
 </head>
@@ -19,19 +19,19 @@
                 <a href="index.html"><button class="inicio"><img src="imagenes/Alcatraz.png" alt=""
                             width="80px"></button></a>
                 <li>
-                    <a class="menuitem" href="#cafe">Desayuno</a>
+                    <a class="menuitem" href="#desayuno">Desayuno</a>
                 </li>
                 <li>
-                    <a class="menuitem" href="#jugo">Cenas</a>
+                    <a class="menuitem" href="#cena">Cenas</a>
                 </li>
                 <li>
-                    <a class="menuitem" href="#alcohol">Postre</a>
+                    <a class="menuitem" href="#postre">Postres</a>
                 </li>
         </div>
     </header>
     <!--=======================MENU==================-->
 
-    <div id="desayuno" class="desayunos">
+    <div id="desayuno" class="lunch">   <!--=======================DESAYUNO==================-->
         <h1>Desayuno</h1>
         <h10 class="subtitulo">DIP’S Y SPREADS</h10>
         <h2>MOUSSE DE SALMÓN - $100</h2>
@@ -48,6 +48,7 @@
             canela molida y azúcar glass.</h4>
         <h2>FLUFFY PANCAKES - $185</h2> cebolla morada, cremoso de aguacate, crema, queso y cilantro.
         <h4>Pancakes esponjosos, bañados en crema de avellana y coronado con chocolates FERRERO ROCHER.</h4>
+        <hr>
         <h10 class="subtitulo">CHILAQUILES</h10>
         <h2>CHILAQUILES VERDES - $145</h2>
         <h4>Totopo bañado en salsa verde, con pesto de cacahuate, acompañados de encurtido de cebolla morada,
@@ -61,11 +62,13 @@
         <h2>QUICHÉ DE RAJAS - $155</h2>
         <h4>Quiché clásico de rajas con elote, servido con ensalada de mix de lechugas aliñado con vinagreta olivo
             limón.</h4>
+            <hr>
         <h10 class="subtitulo">JARS DE FRUTOS</h10>
         <h2>JAR DE FRUTOS VERDES - $115</h2>
         <h4>CON YOGURT</h4>
         <h2>JAR DE FRUTOS ROJOS - $115</h2>
         <H4>CON YOGURT</H4>
+        <hr>
         <h10 class="subtitulo">TOAST</h10>
         <h2>AVOCADO - $140</h2>
         <h4>Pan hogaza con pesto de tomate deshidratado, abanico de aguacate con limón y sal, coronado con queso
@@ -79,6 +82,7 @@
         <h2>ENERGY - $120</h2>
         <h4>Pan hogaza con crema de cacahuate, plátano en abanico, brisado con azúcar caramelizada, coronado con
             coco tostado y semillas de chía.</h4>
+        <hr>
         <h10 class="subtitulo" >HUEVOS AL GUSTO</h10>
         <h2>DESAYUNO DEL PACIFICO - $130</h2>
         <h4>Huevo montado natural o proteína a elegir sobre rebanada de pan de la casa con frijol acompañado de
@@ -87,9 +91,10 @@
         <h2>OMELLETE DE CLARAS Y SALMÓN - $275</h2>
         <h2>BENEDCITOS DE SALMÓN - $275</h2>
         <h2>DIVORCIADOS - $120</h2>
-        <h4>Con pasilla y encacahuatados.</h4>
+        <h4 id="cena">Con pasilla y encacahuatados.</h4>
         <hr>
-        <div id="cena" class="cenas">
+    </div>
+    <div class="cenas">   <!--=======================CENA==================-->
         <h1>CENA</h1>
         <h10 class="subtitulo">ENTRADAS</h10>
         <h2>TOSTADA DE BETABEL - $125</h4>
@@ -124,6 +129,7 @@
         <h2>TARTAR DE ATÚN - $220</h2>
         <h4>Cubos de atún fresco, aliñado con soya preparada de la casa, aguacate, aros de cambray y encurtido
                     de cebolla morada.</h4>
+        <hr>
         <h10 class="subtitulo">PLATILLOS FUERTES</h10>
         <h2>LINGUINE PESTO Y SALMÓN - $250</h2>
         <h4>Pasta salteada con mantequilla y pesto de albahaca. Acompañado de salmón salteado en mantequilla y
@@ -149,6 +155,7 @@
         <h2>PULPO ADOBADO - $320</h2>
         <h4>Pulpo dorado con salsa macha, terminado con una mayonesa de chile morita. servido sobre una cama
                         de guacamole y cacahuate enchilado. Decorado con ensalada de cilantro y arúgula.</h4>
+        <hr>
         <h10 class="subtitulo">FRIENDS & SNACKS</h10>
         <h2>SANDWICH MEDITERRANEO - $200</h2>
         <h4>Sándwich abierto de pollo sobre ensalada de arúgula y manzana verde.</h4>
@@ -158,20 +165,22 @@
         <h4>Jamón serrano, queso gruyere y mostaza antigua de la casa.</h4>
         <h2>MINI CHEESE BURGER & FRIES - $120</h2>
         <h4>Carne Rib Eye, Mermelada de cebolla, queso gruyer.</h4>
+        <hr>
         <h10 class="subtitulo">SOPAS</h10>
         <h2>SOPA DE CEBOLLA - $100</h2>
         <h4>Sopa de cinco cebollas, queso gruyere y crotones.</h4>
         <h2>CREMA DE TOMATE - $120</h2>
-        <h4>Crema de tomate rostizado.</h4>
-        </div>
+        <h4 id="postre">Crema de tomate rostizado.</h4>
         <hr>
-        <div id="postre" class="postres">
-        <h10 class="subtitulo">REPOSTERIA</h10>
+    </div>
+    <div  class="postres">   <!--=======================POSTRES==================-->
+        <h1>REPOSTERIA</h1>
         <h2>BROWNIE - $200</h2>
         <h4>Con salsa de caramelo y palomitas acarameladas</h4>
         <h2>CHEESECAKE VASCO - $180</h2>
         <h2>PASTEL DE CAMPECHANAS - $200</h2>
-        <h10 class="subtitulo">PAN</h10>
+        <hr>
+        <h1>PAN</h1>
         <h2>CONCHAS - $15</h2>
         <h2>ROLL DE CANELA - $18</h2>
         <h2>GALLETAS - $45</h2>
@@ -183,7 +192,7 @@
         <h2>BROWNIES - $80</h2>
         <h2>MACARONS - $12</h2>
         <h4>Merengue italiano | Albahaca | Chocolate Blanco</h4>
-        </div>
+    </div>
 
 
         <!--=======================FOOTER==================-->
